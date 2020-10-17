@@ -16,7 +16,7 @@ int main()
 		else if(j>n-1)
 		j=j%n;
 		else if(arr[i][j]>0)
-		{i=i+2;j--;}
+		{i=i+2;j=-1;}
 	}
 	printf("your magic square\n");
 	for(i=0;i<n;i++)
